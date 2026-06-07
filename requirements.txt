@@ -1,0 +1,6 @@
+requests 
+bs4
+rich 
+InquirerPy
+fake_useragent
+
