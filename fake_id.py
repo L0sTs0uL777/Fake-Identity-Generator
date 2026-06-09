@@ -132,7 +132,8 @@ try :
     my_table.add_column("Values",style="bold green") 
 
     my_table.add_row("Name",name) 
-    my_table.add_row("Address",add.strip()) 
+    my_table.add_row("Address",add.strip())
+    my_table.add_row("Country",country2)
     my_table.add_row("Mother name",mothers_name)
     if len(list1) == 34:
         my_table.add_row("SSN No",ssn_no)
@@ -163,7 +164,7 @@ try :
     my_table.add_row("GUID",guid) 
 
 
-    console.print(my_table)
+    console.print(my_table,style="yellow")
     print()
     console.print("Successfully Info Generated",style="bold blue") 
 
