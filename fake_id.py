@@ -127,7 +127,7 @@ try :
         vehicle = list1[24].get_text()
         guid = list1[25].get_text()
 
-    my_table = Table() 
+    my_table = Table(show_lines="True") 
     my_table.add_column("Key",style="bold red")
     my_table.add_column("Values",style="bold green") 
 
